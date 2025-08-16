@@ -3,6 +3,7 @@
 This project is my solution for the University of Canberra’s Introduction to Information Technology (4478/8936) Assignment 1. It’s a simple automated pet feeder for an animal shelter. The feeder gives dry food at 8 AM and 12 PM, wet food at 6 PM, and lets staff press a button for extra food. It checks if food is eaten using a weight sensor, buzzes if something’s wrong (like food not coming out or sitting for 2 hours), and logs events like “[current_time]: Gave Dry, 100g”. I used cheap parts like a motor and sensor, and kept everything easy to understand. I also used Microsoft Copilot to make the flowchart and code simpler.
 
 ## Repository Structure
+
 Step1_Analysis: Describes the problem and how parts connect.
   - problem_statement.md`: Explains what the feeder does, inputs (e.g., current_time, bowl_weight, button_status), outputs (e.g., servo motors, buzzer), assumptions, and limits.
   - Block_Diagram.md: Mermaid code for the block diagram showing the Control Unit, Food Dispenser, etc.
@@ -33,3 +34,4 @@ AI_Reflection/: How I used AI.
 
 
 This project is simple, uses cheap parts, and is easy for shelter staff to use. All files are organized for the tutor to check.
+
